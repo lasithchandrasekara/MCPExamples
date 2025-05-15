@@ -26,5 +26,5 @@ app.UseRouting();
 // Map MCP endpoints for SSE transport
 app.MapMcp();
 
-Console.WriteLine("Weather MCP Server running on http://localhost:5000");
+Console.WriteLine("Weather MCP Server  running on http://localhost:5000");
 app.Run("http://localhost:5000");
